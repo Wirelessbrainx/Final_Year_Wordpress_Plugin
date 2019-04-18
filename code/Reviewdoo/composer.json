@@ -1,0 +1,17 @@
+{
+    "name": "root/review-taxonomy",
+    "description": "New review Plugin",
+    "type": "project",
+    "license": "GPL",
+    "authors": [
+        {
+            "name": "Oliver Grimes",
+            "email": "og55@kent.ac.uk"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {"Inc\\": "./inc"}
+    }
+}

@@ -1,0 +1,193 @@
+/* 
+    Created on : 12-Mar-2018
+    Author     : Aaron Manning
+*/
+
+.rd-node-title {
+    font-weight: bold;
+    display: inline-block;
+}
+node.rd-node {
+    display: contents;
+}
+.rd-node-child {
+    margin-left: 20px;
+}
+node.grabbable {
+    display: block;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+.rd-node-content {
+    padding: 0.4em;
+}
+.rd-node-content div.slider {
+    display: none;
+}
+.rd-node-content.edit div.slider {
+    display: inline-block;
+    margin-left: 20px;
+    width: 70%;
+}
+div.slider div.rd-slider-handle{
+    width: 10% !important;
+    height: 1.6em;
+    top: 50%;
+    margin-top: -.8em;
+    text-align: center;
+    line-height: 1.6em;
+}
+div.rd-breadcrumb {
+    list-style: none;
+    flex:1;
+    margin: auto;
+}
+/* display list items side by side */
+div.rd-breadcrumb rd-bc {
+    display: inline;
+    font-size: 14px;
+    cursor: pointer;
+}
+div rd-bc.rd-breadcrumb-root {
+    font-size: 20px;
+}
+.rd-container {
+    display: grid;    
+    grid-template-columns: repeat(12, 1fr);
+}
+.rd-header {
+    grid-column: span 12;
+    display: flex;
+    justify-content: space-between;
+    margin-top: auto;
+    margin-bottom: 5px;
+}
+.rd-menu {
+    margin: auto;
+}
+.rd-header-button-group {
+    display: flex;
+}
+.rd-header-category-group {
+    flex: 1;
+}
+.rd-header-button-group button {
+    padding: 0px;
+}
+.rd-header-button-group button.rd-search {
+    margin-right: 5px;
+}
+.rd-merge-slider {
+    width: 150px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.rd-overall-score {
+    margin-left: 2%;
+    text-align: right;
+    font-weight: bold;
+}
+.rd-slider-handle {
+    width: 40% !important;
+    border-radius: 15px !important;
+    top: 50% !important;
+    margin-top: -.8em !important;
+}
+.rd-header-rhs {
+    display: flex;
+    flex: 2;
+}
+.rd-focus {
+    grid-column-start: 1;
+    grid-column-end: 13;
+    display: grid !important;
+}
+.rd-parent {
+    border-radius: 6px;
+    border-style: solid;
+    border-color: lightgrey;
+    cursor: pointer;
+}
+.rd-comment-area {
+    margin-top: 10px;
+}
+.form-submit {
+    float: left;
+}
+.rd-comment-list {
+    display: inline-block;
+}
+button.rd-cancel {
+    background-color: #d9534f;
+}
+button.rd-edit {
+    background-color: #5bc0de;
+}
+.rd-done {
+    background-color: #5cb85c !important;
+}
+#rd-comment-dropdown {
+    float: right;
+    background-color: #222;
+    border: 0;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 14px;
+    font-size: 0.875rem;
+    font-weight: 800;
+    line-height: 1;
+    padding: 1em 2em;
+}
+button.rd-button {
+    padding-right: 10px;
+    padding-left: 5px;
+    line-height: 15pt;
+}
+div.comment-body, .rd-comment-list {
+    margin-bottom: 0px;
+}
+.rd-hidden {
+    display: none;
+}
+.rd-arrow-left {
+    margin: auto;
+}
+.rd-arrow-right {
+    margin: auto;
+}
+/* unable to fix margin bug so hiding... */
+.rd-arrow {
+    display: none;
+}
+select.rd-category-select {
+    height: 100%;
+}
+.rd-slider-icon {
+    margin: auto;
+}
+.rd-slider-handle-merge{
+    border-radius: 25px !important;
+    width: 25px !important;
+    height: 25px !important;
+}
+.rd-node-rating-area {
+    display: inline;
+}
+div.slider {
+    cursor: w-resize;
+}
+#comment {
+    margin-bottom: 10px;
+    border-radius: 6px;
+    border-style: solid;
+    border-color: lightgrey;
+}
+div.rd-node-area {
+    display: contents;
+}
